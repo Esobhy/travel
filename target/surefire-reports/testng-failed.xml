@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]" verbose="0">
+  <parameter name="Browser" value="chrome"/>
+  <test parallel="none" name="Test(failed)">
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="com.phptravels.testcases.Featured_tours">
+        <methods>
+          <include name="login"/>
+          <include name="featur_offer"/>
+        </methods>
+      </class> <!-- com.phptravels.testcases.Featured_tours -->
+      <class name="com.phptravels.testcases.Loginpage_test">
+        <methods>
+          <include name="testdown"/>
+          <include name="login"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.phptravels.testcases.Loginpage_test -->
+      <class name="com.phptravels.testcases.Book_flight">
+        <methods>
+          <include name="testdown"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.phptravels.testcases.Book_flight -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,6 @@
+com\phptravels\testbase\Testbase.class
+com\phptravels\Testpages\Bookflight_pages.class
+com\phptravels\Testpages\Featured_pages.class
+com\phptravels\Testpages\Login_pages.class
+com\phptravels\testutils\Testutils.class
+com\phptravels\testutils\Weblistiner.class
